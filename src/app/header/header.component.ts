@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  slogan :string = 'Your one stop shop for everything';
+  slogan :string = 'Your one new stop shop for everything';
+
+  getSlogan(){
+    return this.slogan;
+  }
 }
